@@ -8,8 +8,8 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prod": "npm run build && npx tsx server.index.ts",
-    "server": "tsx watch server.index.ts",
+    "prod": "npm run build && npx tsx index.ts",
+    "server": "tsx watch index.ts",
     "start": "concurrently \"npm run server\" \"npm run dev\""
   },
   "dependencies": {
